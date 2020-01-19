@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.nikhil.resizable_edittext.MainActivity">
+
+    <com.example.nikhil.resizable_edittext.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:typeface="monospace"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:text=""
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="80sp"
+        android:background="@null"/>
+
+</android.support.constraint.ConstraintLayout>
